@@ -52,5 +52,8 @@
     "arrowParens": "always",
     "printWidth": 100,
     "trailingComma": "all"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
