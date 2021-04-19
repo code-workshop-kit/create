@@ -1,0 +1,15 @@
+{
+  "name": "<?= name ?>",
+  "version": "0.0.0",
+  "description": "<?= name ?> using code-workshop-kit",
+  "author": "<?= name ?>",
+  "license": "MIT",
+  "scripts": {
+    "start": "cwk run",
+    "scaffold": "cwk scaffold",
+    "key": "cwk generate-key"
+  },
+  "dependencies": {
+    "code-workshop-kit": "^2.0.3"
+  }
+}
