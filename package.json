@@ -1,6 +1,6 @@
 {
   "name": "create-code-workshop-kit",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Scaffold workshops using CWK",
   "license": "MIT",
   "type": "module",
