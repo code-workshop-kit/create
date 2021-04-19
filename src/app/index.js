@@ -11,13 +11,13 @@ import Generator from '../Generator.js';
  * Allows to control the data via command line
  *
  * example:
- * npm init code-workshop-kit --type python --writeToDisk
+ * npm init code-workshop-kit --type python --writeToDisk true
  */
 const optionDefinitions = [
   { name: 'destinationPath', type: String },
   { name: 'type', type: String },
   { name: 'name', type: String },
-  { name: 'writeToDisk', type: Boolean },
+  { name: 'writeToDisk', type: String },
 ];
 const overrides = commandLineArgs(optionDefinitions);
 prompts.override(overrides);
